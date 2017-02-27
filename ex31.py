@@ -1,0 +1,6 @@
+f = open('demo.txt','w')
+f.write('Hello World\n')
+f.write('I am the best')
+f.flush()
+f = open('demo.txt','r')
+print(f.read())
